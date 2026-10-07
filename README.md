@@ -1,15 +1,21 @@
 # PharmGraph AI
 
-This repository contains the frontend work for the Bhavishya contribution in the PharmGraph AI project.
+This repository contains the frontend contribution for Bhavishya within the PharmGraph AI 36-commit plan.
 
-## Overview
+## Goal
 
-The application demonstrates a medicine interaction checker with:
-- medicine search
-- selected medicine chips
-- documented interaction results
+The app demonstrates a medicine interaction checker with:
+- search and selection of medicines
+- documented interaction cards
 - potential GNN-based interaction cards
-- safety and limitation messaging
+- clear safety and limitations messaging
+
+## Project flow
+
+1. Search for a medicine.
+2. Select one or more medicines.
+3. View documented interactions and model-based potential alerts.
+4. Review explanation and risk-disclaimer messaging.
 
 ## Local setup
 
@@ -24,6 +30,15 @@ npm run dev
 npm run build
 ```
 
+## Bhavishya scope in this repo
+
+- frontend app shell and navigation
+- medicine search UX
+- selected medicine chips and validation flow
+- results dashboard
+- severity and explanation UI
+- demo-ready presentation layer
+
 ## Notes
 
-This repo is used to reflect the Bhavishya slice of the 36-commit implementation plan for PharmGraph AI.
+This repository reflects the frontend implementation side of the PharmGraph AI plan and is organized to support a clean commit-by-commit history.
